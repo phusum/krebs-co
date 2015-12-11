@@ -1,0 +1,55 @@
+#mainMenu ul {
+	padding: 0;
+	width: 100%;
+	background-color: #292929;
+}
+#mainMenu li {
+	padding: 0;
+}
+#blob {
+	position: absolute;
+	top: 0;
+	z-index : 1;
+	background: #fc7c00;
+	background: -moz-linear-gradient(top, #cc6600, #fc7c00);
+	background: -webkit-gradient(linear, left top, left bottom, from(#cc6600), to(#fc7c00));
+	box-shadow: 2px 2px 2px #444242;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #C66300;
+}
+#nav {
+
+}
+#nav li {
+    list-style: none;
+    border-right: 1px solid #4a4a4a;
+    width: 20%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#nav li a {
+	color: #e3e3e3;
+	z-index: 2;
+	font-size: 18px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@media (max-width:991px) {
+#nav li a {
+	font-size: 14px;
+}
+}
+
+@media (max-width:767px) {
+#nav li {
+    border-right: none;
+    border-bottom: 1px solid #4a4a4a;
+    width: 100%;
+	text-align:left;
+}
+}
