@@ -1110,6 +1110,11 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+footer a {
+	text-decoration: none;
+	color: #003366;
+}
+
 figure {
   margin: 0;
 }
@@ -4541,8 +4546,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: transparent;
 }
 .navbar-default .navbar-brand {
   color: #777;
